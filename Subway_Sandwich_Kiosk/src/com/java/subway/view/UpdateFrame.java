@@ -2,8 +2,6 @@ package com.java.subway.view;
 
 import static com.java.subway.view.SubwayMain.SUBWAY_YELLOW;
 
-import java.awt.BorderLayout;
-import java.awt.Color;
 import java.awt.Component;
 import java.awt.EventQueue;
 

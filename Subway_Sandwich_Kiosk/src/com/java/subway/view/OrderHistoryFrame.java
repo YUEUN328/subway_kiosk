@@ -2,7 +2,6 @@ package com.java.subway.view;
 
 import static com.java.subway.view.SubwayMain.*;
 
-import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Component;
 import java.awt.EventQueue;
@@ -26,7 +25,6 @@ import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
-import javax.swing.SwingConstants;
 import java.awt.Font;
 import javax.swing.JTextField;
 
