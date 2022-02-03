@@ -71,12 +71,8 @@ public class OrderHistoryFrame extends JFrame {
 	public void initialize() {
 		setTitle("주문 내역");
 		setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-		
-		// JFrame이 뜨는 위치 설정
-		int x = parentComponent.getX(); // 부모 컴포넌트의 x 좌표
-		int y = parentComponent.getY();
-		setBounds(x, y, 800, 600);
-		setLocationRelativeTo(null);
+		setBounds(100, 100, 800, 600);
+		setLocationRelativeTo(null); // 중앙에 띄우기
 		contentPane = new JPanel();
 		contentPane.setBackground(SUBWAY_YELLOW);
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
@@ -180,6 +176,7 @@ public class OrderHistoryFrame extends JFrame {
 			int result = dao.delete(no); 
 			if (result == 1) {
 				tableModel.removeRow(row); // 테이블에서 행 삭제
+				loadOrderData();
 				JOptionPane.showMessageDialog(this, "삭제가 완료되었습니다.", "알림", JOptionPane.INFORMATION_MESSAGE);
 			}
 		}		

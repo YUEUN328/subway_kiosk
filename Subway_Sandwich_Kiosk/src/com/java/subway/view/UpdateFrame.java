@@ -3,6 +3,7 @@ package com.java.subway.view;
 import static com.java.subway.view.SubwayMain.SUBWAY_YELLOW;
 
 import java.awt.BorderLayout;
+import java.awt.Color;
 import java.awt.Component;
 import java.awt.EventQueue;
 
@@ -73,7 +74,7 @@ public class UpdateFrame extends JFrame {
 		setTitle("주문 변경");
 		setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		setBounds(735, 180, 478, 481);
-		setLocationRelativeTo(null);
+		setLocationRelativeTo(null); // 중앙에 띄우기
 		contentPane = new JPanel();
 		contentPane.setBackground(SUBWAY_YELLOW);
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
@@ -134,7 +135,7 @@ public class UpdateFrame extends JFrame {
 			}
 		});
 		btnUpdate.setFont(new Font("맑은 고딕", Font.BOLD, 20));
-		btnUpdate.setBounds(126, 368, 98, 54);
+		btnUpdate.setBounds(238, 368, 98, 54);
 		contentPane.add(btnUpdate);
 		
 		JButton btnCancel = new RoundedButton("취소");
@@ -145,7 +146,7 @@ public class UpdateFrame extends JFrame {
 			}
 		});
 		btnCancel.setFont(new Font("맑은 고딕", Font.BOLD, 20));
-		btnCancel.setBounds(238, 368, 98, 54);
+		btnCancel.setBounds(126, 368, 98, 54);
 		contentPane.add(btnCancel);
 	} // end initialize()
 	
