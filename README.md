@@ -1,4 +1,3 @@
-# subway_kiosk
+# 2021.12.20 ~ 2021.12.24 써브웨이 키오스크 
 
-
-https://user-images.githubusercontent.com/93204370/152361934-8968a078-d2d0-4b8c-a9c4-ce697c6fc028.mp4
+https://user-images.githubusercontent.com/93204370/152365184-2a2027b8-119e-435d-a6a3-7808fd18ab9f.mp4
